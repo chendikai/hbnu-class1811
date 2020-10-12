@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31f8560b-72c4-4c85-b61e-1b96e5b82376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/InputOutputStream/CreateDeleteFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/InputOutputStream/CreateFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/InputOutputStream/DeleteFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/InputOutputStream/InputStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/InputOutputStream/InputStreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/InputOutputStream/OutputStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/InputOutputStream/PrintFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/InputOutputStream/ReaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/InputOutputStream/WriterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="31f8560b-72c4-4c85-b61e-1b96e5b82376" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,23 +27,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="77" />
+          <entry key="java" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="77" />
+          <entry key="JAVA" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="21" />
-          <entry key="java" value="9244" />
+          <entry key="java" value="9310" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9244" />
+          <entry key="JAVA" value="9310" />
           <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
@@ -111,11 +99,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/ReaderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="282">
+              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/ReaderDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -137,8 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/src/com/dingli/array/Pluse.java" />
-        <option value="$PROJECT_DIR$/src/com/dingli/edu/Demo1.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/edu/Demo02.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/edu/Test.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/edu/Test01.java" />
@@ -188,6 +183,8 @@
         <option value="$PROJECT_DIR$/src/com/dingli/InputOutputStream/InputStreamDemo2.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/InputOutputStream/WriterDemo.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/InputOutputStream/ReaderDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/InputOutputStream/WriterDemo2.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/InputOutputStream/ReaderDemo2.java" />
       </list>
     </option>
   </component>
@@ -255,7 +252,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602473828366" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602473997771" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="E:/IDEAProjects/ShoppingWeb" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -394,18 +391,17 @@
       <workItem from="1602231235272" duration="3473000" />
       <workItem from="1602242482575" duration="16000" />
       <workItem from="1602338640429" duration="1266000" />
-      <workItem from="1602468334050" duration="4811000" />
+      <workItem from="1602468334050" duration="5138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57679000" />
+    <option name="totallyTimeSpent" value="58006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49790794" weight="0.19638069" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.19638069" />
       <window_info id="Structure" order="1" sideWeight="0.50209206" side_tool="true" weight="0.18632708" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -414,7 +410,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.55788004" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21927375" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21927375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -474,20 +470,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/edu/SonAbstract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/edu/AbstractDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dingli/edu/InterfaceTest2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -836,10 +818,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/WriterDemo2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/ReaderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="282">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/ReaderDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
         </state>
       </provider>
     </entry>

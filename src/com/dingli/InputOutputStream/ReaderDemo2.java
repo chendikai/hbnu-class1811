@@ -13,6 +13,7 @@ public class ReaderDemo2 {
             reader = new FileReader(file);
 
             char[] chars = new char[1024];
+            
             int temp = 0;
             int length = 0;
             while ((temp = reader.read()) != -1) {
