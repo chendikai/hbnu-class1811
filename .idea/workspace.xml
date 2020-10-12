@@ -13,7 +13,7 @@
     <session id="-109455094">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.11" value="2" />
@@ -38,12 +38,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="21" />
-          <entry key="java" value="9310" />
+          <entry key="java" value="9311" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9310" />
+          <entry key="JAVA" value="9311" />
           <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
@@ -111,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/ReaderDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            <state relative-caret-position="56">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -203,7 +203,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1050" />
@@ -252,7 +252,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602474024088" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602474134676" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="E:/IDEAProjects/ShoppingWeb" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -391,15 +391,16 @@
       <workItem from="1602231235272" duration="3473000" />
       <workItem from="1602242482575" duration="16000" />
       <workItem from="1602338640429" duration="1266000" />
-      <workItem from="1602468334050" duration="5138000" />
+      <workItem from="1602468334050" duration="5877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58006000" />
+    <option name="totallyTimeSpent" value="58745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.19638069" />
       <window_info id="Structure" order="1" sideWeight="0.50209206" side_tool="true" weight="0.18632708" />
@@ -410,7 +411,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.55788004" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21927375" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21927375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -830,8 +831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/ReaderDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        <state relative-caret-position="56">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
