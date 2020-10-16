@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31f8560b-72c4-4c85-b61e-1b96e5b82376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/InputOutputStream/InputStreamReaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/InputOutputStream/OutputStreamWriterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/InputOutputStream/PipedInputStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/InputOutputStream/PipedOutputStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/InputOutputStream/PipedStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/collection/GenericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/collection/Geniric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dingli/collection/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dingli/collection/CollectionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dingli/collection/HashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dingli/collection/HashSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dingli/collection/HashSetTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dingli/collection/Heroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dingli/collection/HeroesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dingli/collection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dingli/collection/Poker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dingli/collection/TreeSetDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,37 +25,37 @@
     <session id="-109455094">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="8" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="88" />
+          <entry key="java" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="88" />
+          <entry key="JAVA" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="28" />
-          <entry key="java" value="10537" />
+          <entry key="java" value="12874" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10537" />
+          <entry key="JAVA" value="12874" />
           <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
@@ -61,59 +64,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/OutputStreamWriterDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/InputStreamReaderDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="16" column="81" lean-forward="true" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/PipedOutputStreamDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="221">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/PipedInputStreamDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/HashSetTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/PipedStreamTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            <state relative-caret-position="224">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,27 +98,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/Geniric.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/TreeSetDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="249">
+              <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
               <folding>
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/HashMapDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/CollectionsDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/GenericTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/Poker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            <state relative-caret-position="1400">
+              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,16 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/dingli/edu/SonAbstract.java" />
-        <option value="$PROJECT_DIR$/src/com/dingli/edu/InterfaceTest2.java" />
-        <option value="$PROJECT_DIR$/src/com/dingli/edu/AbstractDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/dingli/innerclass/InnerClassDemo01.java" />
-        <option value="$PROJECT_DIR$/src/com/dingli/innerclass/Demo.java" />
-        <option value="$PROJECT_DIR$/src/com/dingli/innerclass/Demo01.java" />
-        <option value="$PROJECT_DIR$/src/com/dingli/innerclass/InterfaceTest.java" />
-        <option value="$PROJECT_DIR$/src/com/dingli/innerclass/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/dingli/summary/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/dingli/summary/Person.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/summary/Language.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/summary/Basketball.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/summary/Student.java" />
@@ -215,6 +203,16 @@
         <option value="$PROJECT_DIR$/src/com/dingli/collection/Demo.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/collection/Geniric.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/collection/GenericTest.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/collection/ArrayListTest.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/collection/HeroesTest.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/collection/Heroes.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/collection/HashSetTest.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/collection/HashSetTest2.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/collection/TreeSetDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/collection/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/collection/HashMapDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/collection/CollectionsDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/collection/Poker.java" />
       </list>
     </option>
   </component>
@@ -235,7 +233,6 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
-    <option name="y" value="1" />
     <option name="width" value="1938" />
     <option name="height" value="1050" />
   </component>
@@ -283,7 +280,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602554175974" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602842184741" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="E:/IDEAProjects/ShoppingWeb" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -310,9 +307,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenericTest">
-    <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dingli.collection.GenericTest" />
+  <component name="RunManager" selected="Application.Poker">
+    <configuration name="CollectionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dingli.collection.CollectionsDemo" />
       <module name="class11" />
       <extension name="coverage">
         <pattern>
@@ -324,12 +321,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputStreamReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dingli.InputOutputStream.InputStreamReaderDemo" />
+    <configuration name="HashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dingli.collection.HashMapDemo" />
       <module name="class11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dingli.InputOutputStream.*" />
+          <option name="PATTERN" value="com.dingli.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,12 +334,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutputStreamWriterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dingli.InputOutputStream.OutputStreamWriterDemo" />
+    <configuration name="HashSetTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dingli.collection.HashSetTest2" />
       <module name="class11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dingli.InputOutputStream.*" />
+          <option name="PATTERN" value="com.dingli.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,12 +347,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PipedStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dingli.InputOutputStream.PipedStreamTest" />
+    <configuration name="Poker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dingli.collection.Poker" />
       <module name="class11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dingli.InputOutputStream.*" />
+          <option name="PATTERN" value="com.dingli.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,12 +360,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReaderDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dingli.InputOutputStream.ReaderDemo2" />
+    <configuration name="TreeSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dingli.collection.TreeSetDemo" />
       <module name="class11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dingli.InputOutputStream.*" />
+          <option name="PATTERN" value="com.dingli.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,19 +374,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReaderDemo2" />
-      <item itemvalue="Application.OutputStreamWriterDemo" />
-      <item itemvalue="Application.InputStreamReaderDemo" />
-      <item itemvalue="Application.PipedStreamTest" />
-      <item itemvalue="Application.GenericTest" />
+      <item itemvalue="Application.HashSetTest2" />
+      <item itemvalue="Application.TreeSetDemo" />
+      <item itemvalue="Application.HashMapDemo" />
+      <item itemvalue="Application.CollectionsDemo" />
+      <item itemvalue="Application.Poker" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericTest" />
-        <item itemvalue="Application.PipedStreamTest" />
-        <item itemvalue="Application.InputStreamReaderDemo" />
-        <item itemvalue="Application.OutputStreamWriterDemo" />
-        <item itemvalue="Application.ReaderDemo2" />
+        <item itemvalue="Application.Poker" />
+        <item itemvalue="Application.CollectionsDemo" />
+        <item itemvalue="Application.HashMapDemo" />
+        <item itemvalue="Application.TreeSetDemo" />
+        <item itemvalue="Application.HashSetTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -423,19 +420,21 @@
       <workItem from="1602242482575" duration="16000" />
       <workItem from="1602338640429" duration="1266000" />
       <workItem from="1602468334050" duration="5877000" />
-      <workItem from="1602545984717" duration="6115000" />
+      <workItem from="1602545984717" duration="6205000" />
+      <workItem from="1602634623585" duration="3947000" />
+      <workItem from="1602835451650" duration="5336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64860000" />
+    <option name="totallyTimeSpent" value="74233000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="1" width="1550" height="840" extended-state="0" />
+    <frame x="-7" y="0" width="1550" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.19906166" />
-      <window_info id="Structure" order="1" sideWeight="0.50209206" side_tool="true" weight="0.18632708" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957627" visible="true" weight="0.20442359" />
+      <window_info id="Structure" order="1" sideWeight="0.5042373" side_tool="true" weight="0.2016075" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -443,7 +442,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.55788004" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28248587" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38700566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,97 +502,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/summary/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/summary/Language.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/summary/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/summary/Basketball.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/summary/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/summary/Teacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/innerclass/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/uml/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/uml/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/uml/BasePojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/uml/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="149" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="950" column="5" lean-forward="true" selection-start-line="950" selection-start-column="5" selection-end-line="950" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dingli/common/Houyi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="896">
@@ -774,9 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -811,51 +716,35 @@
     <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/OutputStreamWriterDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/InputStreamReaderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="16" column="81" lean-forward="true" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
+        <state relative-caret-position="448">
+          <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/PipedOutputStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="448">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/PipedInputStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dingli/InputOutputStream/PipedStreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
+        <state relative-caret-position="588">
           <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,21 +752,145 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="32" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/GenericTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="458" column="8" lean-forward="true" selection-start-line="458" selection-start-column="8" selection-end-line="458" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/ArrayListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="46" column="15" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/HeroesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/HashSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/Heroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/HashSetTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/TreeSetDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/HashMapDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="5398" column="31" selection-start-line="5398" selection-start-column="8" selection-end-line="5398" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/CollectionsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/collection/Poker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
