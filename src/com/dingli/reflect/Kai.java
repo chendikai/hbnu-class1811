@@ -33,4 +33,12 @@ public class Kai extends Heroes {
     public Kai() {
         super();
     }
+
+    public void fighting() {
+        System.out.println("fighting......");
+    }
+
+    private void bloodReturning() {
+        System.out.println("bloodReturning......");
+    }
 }

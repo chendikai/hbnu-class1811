@@ -3,6 +3,7 @@ package com.dingli.reflect;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
 public class ReflectTest {
     public static void main(String[] args) throws ClassNotFoundException {
@@ -41,7 +42,6 @@ public class ReflectTest {
             Field blood = clazz3.getDeclaredField("blood");
             blood.setAccessible(true);
             Field role = clazz3.getField("role");
-            role.setAccessible(true);
 
             // 5.2 给属性赋值
             blood.set(heroes2, 120);
@@ -51,6 +51,20 @@ public class ReflectTest {
             double a = (double) blood.get(heroes2);
             String n = (String) role.get(heroes2);
             System.out.println(n + ":" + a);
+
+            // 6、调用方法
+            Method[] declaredMethods = clazz3.getDeclaredMethods();
+            for (int i = 0; i < declaredMethods.length; i++) {
+                Method declaredMethod = declaredMethods[i];
+                System.out.println(declaredMethod.getName());
+            }
+
+            Method fighting = clazz3.getDeclaredMethod("fighting");
+            String heroes1 = (String) fighting.invoke(heroes2);
+
+            Method bloodReturning = clazz3.getDeclaredMethod("bloodReturning");
+            bloodReturning.setAccessible(true);
+            String blood2 = (String) bloodReturning.invoke(heroes2);
         } catch (Exception e) {
             e.printStackTrace();
         }
