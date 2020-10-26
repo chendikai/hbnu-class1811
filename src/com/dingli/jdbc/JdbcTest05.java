@@ -36,17 +36,40 @@ public class JdbcTest05 {
             stmt = conn.createStatement();
 
             // 4、执行sql语句
-            String sql = "select username,password,realname,salary from userinfo";
+            String sql = "select username as name,password,realname,salary from userinfo";
             rs = stmt.executeQuery(sql); // 对于数据库操作中的查询，使用executeQuery()方法
 
             // 5、处理查询结果集
             while (rs.next()) {
-
+                /*
                 // 5.1 通过下标获取字段，通过string接收数据
                 String name = rs.getString(1);
                 String pwd = rs.getString(2);
                 String real = rs.getString(3);
                 String sal = rs.getString(4);
+                */
+
+                /*
+                // 5.2 通过下标获取字段，通过指定数据类型接收数据
+                String name = rs.getString(1);
+                String pwd = rs.getString(2);
+                String real = rs.getString(3);
+                double sal = rs.getDouble(4);
+                */
+
+                /*
+                // 5.3 通过字段名获取字段，通过string接收数据
+                String name = rs.getString("name");
+                String pwd = rs.getString("password");
+                String real = rs.getString("realname");
+                String sal = rs.getString("salary");
+                */
+
+                // 5.4 通过字段名获取字段，通过指定数据类型接收数据
+                String name = rs.getString("name");
+                String pwd = rs.getString("password");
+                String real = rs.getString("realname");
+                double sal = rs.getDouble("salary");
 
                 System.out.println(name + "\t" + pwd + "\t" + real + "\t" + sal);
             }
