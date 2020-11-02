@@ -8,7 +8,7 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class Ticket implements Runnable {
 
-    private int ticket = 10;
+    private int ticket = 10; // 共享资源
 
     private final ReentrantLock lock = new ReentrantLock(); // 创建锁对象
 
@@ -17,18 +17,18 @@ public class Ticket implements Runnable {
         while (true) {
             try {
                 Thread.sleep(1000);
-                lock.lock(); // 获取锁
-                if (ticket > 0) {
-                    System.out.println(Thread.currentThread().getName() + "卖出了" + ticket + "号票");
-                    ticket--;
-                } else {
-                    break;
-                }
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            } finally {
-                lock.unlock(); // 释放锁
             }
+            lock.lock(); // 获取锁
+            // 操作了共享资源的代码
+            if (ticket > 0) {
+                System.out.println(Thread.currentThread().getName() + "卖出了" + ticket + "号票");
+                ticket--;
+            } else {
+                break;
+            }
+            lock.unlock(); // 释放锁
         }
     }
 }
