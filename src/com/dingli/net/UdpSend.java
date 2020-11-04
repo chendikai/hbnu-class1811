@@ -18,7 +18,7 @@ public class UdpSend {
 
             // DatagramPacket(byte[] buf, int length, InetAddress address, int port)
             byte[] bufr = "Jixin 1811".getBytes();
-            DatagramPacket datagramPacket = new DatagramPacket(bufr, bufr.length, InetAddress.getByName("127.0.0.1"), 9999);
+            DatagramPacket datagramPacket = new DatagramPacket(bufr, bufr.length, InetAddress.getByName("192.168.8.69"), 8888);
 
             datagramSocket.send(datagramPacket);
 
