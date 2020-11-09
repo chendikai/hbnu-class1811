@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31f8560b-72c4-4c85-b61e-1b96e5b82376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/net/TcpClient01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/net/TcpClient02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/net/TcpClient03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/net/TcpServer01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/net/TcpServer02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dingli/net/TcpServer03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dingli/net/TcpClient04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dingli/net/TcpClient05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dingli/net/TcpServer04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dingli/net/TcpServer05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dingli/net/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,12 +20,12 @@
     <session id="-109455094">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="39" />
+          <entry key="project.closed" value="41" />
           <entry key="project.open.time.0" value="12" />
-          <entry key="project.open.time.1" value="14" />
+          <entry key="project.open.time.1" value="15" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.2" value="4" />
-          <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.30" value="3" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="1" />
@@ -34,37 +33,37 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="42" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="178" />
-          <entry key="properties" value="2" />
+          <entry key="java" value="183" />
+          <entry key="properties" value="3" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="178" />
+          <entry key="JAVA" value="183" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="2" />
+          <entry key="Properties" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="28" />
-          <entry key="java" value="27874" />
-          <entry key="properties" value="152" />
+          <entry key="java" value="29518" />
+          <entry key="properties" value="157" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="27873" />
+          <entry key="JAVA" value="29517" />
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Properties" value="152" />
+          <entry key="Properties" value="157" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -72,71 +71,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dingli/net/TcpClient01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dingli/net/TcpServer01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dingli/net/TcpClient02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="19" column="33" selection-start-line="8" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dingli/net/TcpServer02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dingli/net/TcpClient03.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="40" column="42" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/dingli/net/TcpServer03.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dingli/net/TcpClient04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="217">
+              <caret line="26" column="78" lean-forward="true" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dingli/net/TcpServer04.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dingli/net/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding>
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dingli/net/TcpClient05.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dingli/net/TcpServer05.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,16 +159,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/dingli/reflect/ReflectTest.java" />
-        <option value="$PROJECT_DIR$/src/com/dingli/jdbc/JdbcInterface.java" />
-        <option value="$PROJECT_DIR$/src/com/dingli/jdbc/MysqlJdbc.java" />
-        <option value="$PROJECT_DIR$/src/com/dingli/jdbc/OracleJdbc.java" />
-        <option value="$PROJECT_DIR$/src/com/dingli/jdbc/SqlserverJdbc.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/jdbc/JavaPragrammer.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/jdbc/JdbcTest02.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/jdbc/JdbcTest01.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/jdbc/JdbcTest03.java" />
-        <option value="$PROJECT_DIR$/src/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/com/dingli/jdbc/JdbcTest04.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/jdbc/JdbcTest05.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/jdbc/JdbcTest06.java" />
@@ -217,6 +204,12 @@
         <option value="$PROJECT_DIR$/src/com/dingli/net/TcpServer02.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/net/TcpClient03.java" />
         <option value="$PROJECT_DIR$/src/com/dingli/net/TcpServer03.java" />
+        <option value="$PROJECT_DIR$/src/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/com/dingli/net/TcpServer04.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/net/TcpClient04.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/net/User.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/net/TcpClient05.java" />
+        <option value="$PROJECT_DIR$/src/com/dingli/net/TcpServer05.java" />
       </list>
     </option>
   </component>
@@ -236,9 +229,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -248,13 +242,10 @@
           <State>
             <id>Java</id>
           </State>
-          <State>
-            <id>Serialization issuesJava</id>
-          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>SerializableHasSerialVersionUIDField</id>
+            <id>Java</id>
           </State>
         </selected-state>
       </profile-state>
@@ -268,7 +259,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -295,21 +285,18 @@
               <item name="dingli" type="462c0819:PsiDirectoryNode" />
               <item name="net" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="class11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Arrays&#9;PSI&#9;JAVA://java.util.Arrays&#10;Collections&#9;FILE&#9;jar://D:/Program Files/Java/jdk1.8.0_65/jre/lib/rt.jar!/java/util/Collections.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604656573702" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604893716541" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/dingli/jdbc/JdbcTest06.java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -317,7 +304,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/com/dingli/jdbc/JdbcTest06.java" />
   </component>
   <component name="RecentsManager">
@@ -340,33 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TcpClient03">
-    <configuration name="TcpClient01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dingli.net.TcpClient01" />
-      <module name="class11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dingli.net.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TcpClient02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dingli.net.TcpClient02" />
-      <module name="class11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dingli.net.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TcpClient05">
     <configuration name="TcpClient03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dingli.net.TcpClient03" />
       <module name="class11" />
@@ -380,8 +341,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TcpServer02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dingli.net.TcpServer02" />
+    <configuration name="TcpClient04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dingli.net.TcpClient04" />
       <module name="class11" />
       <extension name="coverage">
         <pattern>
@@ -393,8 +354,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TcpServer03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dingli.net.TcpServer03" />
+    <configuration name="TcpClient05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dingli.net.TcpClient05" />
+      <module name="class11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dingli.net.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TcpServer04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dingli.net.TcpServer04" />
+      <module name="class11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dingli.net.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TcpServer05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dingli.net.TcpServer05" />
       <module name="class11" />
       <extension name="coverage">
         <pattern>
@@ -407,19 +394,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TcpClient01" />
-      <item itemvalue="Application.TcpServer02" />
-      <item itemvalue="Application.TcpClient02" />
-      <item itemvalue="Application.TcpServer03" />
       <item itemvalue="Application.TcpClient03" />
+      <item itemvalue="Application.TcpServer04" />
+      <item itemvalue="Application.TcpClient04" />
+      <item itemvalue="Application.TcpServer05" />
+      <item itemvalue="Application.TcpClient05" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TcpClient05" />
+        <item itemvalue="Application.TcpServer05" />
+        <item itemvalue="Application.TcpClient04" />
+        <item itemvalue="Application.TcpServer04" />
         <item itemvalue="Application.TcpClient03" />
-        <item itemvalue="Application.TcpServer03" />
-        <item itemvalue="Application.TcpClient02" />
-        <item itemvalue="Application.TcpServer02" />
-        <item itemvalue="Application.TcpClient01" />
       </list>
     </recent_temporary>
   </component>
@@ -474,12 +461,14 @@
       <workItem from="1604447445213" duration="7248000" />
       <workItem from="1604470213322" duration="196000" />
       <workItem from="1604649556132" duration="5905000" />
-      <workItem from="1604669574382" duration="229000" />
+      <workItem from="1604669574382" duration="1032000" />
+      <workItem from="1604709381332" duration="27000" />
+      <workItem from="1604886059738" duration="6594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148497000" />
+    <option name="totallyTimeSpent" value="156150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -525,7 +514,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.55649716" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37569833" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48324022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3983051" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -576,41 +565,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/jdbc/JdbcTest03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/jdbc/JdbcTest02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dingli/jdbc/JdbcTest04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9662">
-          <caret line="5398" column="31" selection-start-line="5398" selection-start-column="8" selection-end-line="5398" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_65/jre/lib/rt.jar!/java/util/Collections.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -667,13 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1064">
           <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -940,8 +887,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dingli/net/TcpServer03.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="999">
+          <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/net/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/net/TcpClient05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/net/TcpServer05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/net/TcpServer04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dingli/net/TcpClient04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="26" column="78" lean-forward="true" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
