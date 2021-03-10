@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- 配置mybatis全局信息 -->
+<configuration>
+    <!--配置环境信息，内部可以配置多个环境信息，比如开发环境、测试环境、生产环境-->
+    <environments default="develop">
+        <environment id="develop">
+            <!-- 事务管理器配置
+            JDBC:自动管理事务，推荐使用
+            MANAGED:手动管理事务
+            -->
+            <transactionManager type="JDBC"></transactionManager>
+            <!-- 数据源配置
+            JNDI:已过时，不推荐
+            POOLED：使用数据库连接池
+            UNPOOLED：不适用数据库连接池
+            -->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url"
+                          value="jdbc:mysql://localhost:3306/hbnu?serverTimezone=GMT&amp;useSSL=false&amp;characterEncoding=utf-8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="chendikai"/>
+            </dataSource>
+        </environment>
+
+    </environments>
+
+    <!-- 配置映射文件，可以配置多个 -->
+    <mappers>
+        <mapper resource="UserMapper.xml"></mapper>
+    </mappers>
+</configuration>
