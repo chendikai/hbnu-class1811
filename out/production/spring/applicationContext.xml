@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 配置需要生成对象的类的信息 -->
+    <!--<bean id="user" class="com.hbnu.pojo.User"/>-->
+
+    <!-- 通过静态工厂管理Bean对象 -->
+    <!--<bean id="factory" class="com.hbnu.pojo.UserFactory" factory-method="getUser"></bean>-->
+
+    <!-- 通过实例工厂管理Bean对象 -->
+   <!-- <bean id="factory" class="com.hbnu.pojo.UserFactory"></bean>
+    <bean id="user" factory-bean="factory" factory-method="getUser"></bean> -->
+
+    <!-- 1、通过有参构造函数注入属性 -->
+    <!--
+    <bean id="user" class="com.hbnu.pojo.User">
+        &lt;!&ndash;
+        name属性：类中的属性名
+        value属性：属性值
+        &ndash;&gt;
+        <constructor-arg name="username" value="chendikai"/>
+    </bean>
+    -->
+
+    <!-- 2、通过set方法注入属性 -->
+    <!--
+    <bean id="user" class="com.hbnu.pojo.User">
+        <property name="username" value="chendikai"></property>
+    </bean>
+    -->
+
+    <!-- 3、注入类类型属性 -->
+    <!--
+    <bean id="userDao" class="com.hbnu.pojo.UserDao"></bean>
+    <bean id="userService" class="com.hbnu.pojo.UserService">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+    -->
+
+    <!-- 4、注入复杂数据类型 -->
+    <bean id="dataType" class="com.hbnu.pojo.DataType">
+        <!-- 4.1 注入数组类型属性 -->
+        <property name="arr">
+            <list>
+                <value>铠</value>
+                <value>小乔</value>
+                <value>妲己</value>
+            </list>
+        </property>
+
+        <!-- 4.2 注入list集合类型 -->
+        <property name="list">
+            <list>
+                <value>张三丰</value>
+                <value>张翠山</value>
+                <value>张无忌</value>
+            </list>
+        </property>
+
+        <!-- 4.3 注入map集合类型 -->
+        <property name="map">
+            <map>
+                <entry key="username" value="陈迪凯"></entry>
+                <entry key="gender" value="男"></entry>
+                <entry key="address" value="湖北黄石"></entry>
+            </map>
+        </property>
+
+        <!-- 4.4 注入properties类型 -->
+        <property name="properties">
+            <props>
+                <prop key="driverClass">com.mysql.cj.jdbc.Driver</prop>
+                <prop key="url">jdbc:mysql:///hbnu</prop>
+                <prop key="username">root</prop>
+                <prop key="password">chendikai</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
