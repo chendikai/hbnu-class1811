@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="566a4a26-e2c6-4abf-a0cf-bc936f6797a8" name="Default Changelist" comment="" />
+    <list default="true" id="566a4a26-e2c6-4abf-a0cf-bc936f6797a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aopContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hbnu/aop/AOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hbnu/aop/LogRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hbnu/aop/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/aspectjweaver-1.8.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-4.2.4.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/J2EE高级开发框架.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,36 +25,38 @@
     <session id="-1106925413">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="20" />
-          <entry key="xml" value="8" />
+          <entry key="java" value="23" />
+          <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="20" />
-          <entry key="XML" value="8" />
+          <entry key="JAVA" value="23" />
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="989" />
-          <entry key="xml" value="838" />
+          <entry key="java" value="1371" />
+          <entry key="xml" value="1045" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="989" />
-          <entry key="XML" value="838" />
+          <entry key="JAVA" value="1371" />
+          <entry key="XML" value="1045" />
         </counts>
       </usages-collector>
     </session>
@@ -50,55 +64,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/annotation.xml">
+        <entry file="file://$PROJECT_DIR$/src/aopContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+            <state relative-caret-position="509">
+              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hbnu/annotation/User.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hbnu/aop/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="224">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="26" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hbnu/annotation/UserDao.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hbnu/aop/LogRecord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-              <folding>
-                <element signature="e#282#283#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hbnu/annotation/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="504">
+              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/hbnu/annotation/AnnotationTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hbnu/aop/AOPTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="16" column="90" lean-forward="true" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+            <state relative-caret-position="215">
+              <caret line="12" lean-forward="true" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,6 +121,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -131,6 +139,10 @@
         <option value="$PROJECT_DIR$/src/com/hbnu/annotation/AnnotationTest.java" />
         <option value="$PROJECT_DIR$/src/com/hbnu/annotation/UserService.java" />
         <option value="$PROJECT_DIR$/src/com/hbnu/annotation/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/hbnu/aop/UserService.java" />
+        <option value="$PROJECT_DIR$/src/com/hbnu/aop/AOPTest.java" />
+        <option value="$PROJECT_DIR$/src/aopContext.xml" />
+        <option value="$PROJECT_DIR$/src/com/hbnu/aop/LogRecord.java" />
       </list>
     </option>
   </component>
@@ -193,7 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,13 +229,31 @@
               <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hbnu" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +262,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615283521349" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615888376059" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -243,8 +273,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\DingLi\class211\spring\web\WEB-INF\lib" />
       <recent name="E:\DingLi\class211\spring\src" />
+      <recent name="E:\DingLi\class211\spring\web\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -259,7 +289,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnnotationTest.testAnnotation">
+  <component name="RunManager" selected="JUnit.AOPTest.testAop">
+    <configuration name="AOPTest.testAop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hbnu.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hbnu.aop" />
+      <option name="MAIN_CLASS_NAME" value="com.hbnu.aop.AOPTest" />
+      <option name="METHOD_NAME" value="testAop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AnnotationTest.testAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring" />
       <extension name="coverage">
@@ -295,9 +341,11 @@
     <list>
       <item itemvalue="JUnit.IocTest.testIoc" />
       <item itemvalue="JUnit.AnnotationTest.testAnnotation" />
+      <item itemvalue="JUnit.AOPTest.testAop" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AOPTest.testAop" />
         <item itemvalue="JUnit.AnnotationTest.testAnnotation" />
         <item itemvalue="JUnit.IocTest.testIoc" />
       </list>
@@ -318,22 +366,14 @@
       <workItem from="1615259001656" duration="12959000" />
       <workItem from="1615357960864" duration="535000" />
       <workItem from="1615358524874" duration="10000" />
+      <workItem from="1615372197979" duration="31000" />
+      <workItem from="1615726601761" duration="13000" />
+      <workItem from="1615863571442" duration="30000" />
+      <workItem from="1615875487424" duration="5865000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnnotationTest_testAnnotation - 2021.03.09 at 17h 03m 17s.xml">
-      <configuration name="AnnotationTest.testAnnotation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnnotationTest_testAnnotation - 2021.03.09 at 17h 03m 28s.xml">
-      <configuration name="AnnotationTest.testAnnotation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnnotationTest_testAnnotation - 2021.03.09 at 17h 04m 53s.xml">
-      <configuration name="AnnotationTest.testAnnotation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnnotationTest_testAnnotation - 2021.03.09 at 17h 05m 58s.xml">
-      <configuration name="AnnotationTest.testAnnotation" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnnotationTest_testAnnotation - 2021.03.09 at 17h 07m 20s.xml">
       <configuration name="AnnotationTest.testAnnotation" configurationId="JUnit" />
     </history-entry>
@@ -352,15 +392,27 @@
     <history-entry file="AnnotationTest_testAnnotation - 2021.03.09 at 17h 51m 42s.xml">
       <configuration name="AnnotationTest.testAnnotation" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AOPTest_testAop - 2021.03.16 at 16h 48m 33s.xml">
+      <configuration name="AOPTest.testAop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AOPTest_testAop - 2021.03.16 at 16h 51m 07s.xml">
+      <configuration name="AOPTest.testAop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AOPTest_testAop - 2021.03.16 at 17h 45m 49s.xml">
+      <configuration name="AOPTest.testAop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AOPTest_testAop - 2021.03.16 at 17h 47m 27s.xml">
+      <configuration name="AOPTest.testAop" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17999000" />
+    <option name="totallyTimeSpent" value="23938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22386059" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23592493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -370,7 +422,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.54951185" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.59217876" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -394,7 +446,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23592493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -404,7 +456,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.54951185" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.59217876" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -493,7 +545,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hbnu/annotation/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="252">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -513,7 +565,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hbnu/annotation/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="308">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -523,8 +575,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hbnu/annotation/AnnotationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="90" lean-forward="true" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+        <state relative-caret-position="308">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aopContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hbnu/aop/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hbnu/aop/LogRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hbnu/aop/AOPTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="12" lean-forward="true" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

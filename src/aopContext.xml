@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 将增强类和被增强类交给spring容器管理 -->
+    <bean id="userService" class="com.hbnu.aop.UserService"></bean>
+    <bean id="logRecord" class="com.hbnu.aop.LogRecord"></bean>
+
+    <!--
+    &lt;!&ndash; 配置aop &ndash;&gt;
+    <aop:config>
+        &lt;!&ndash; 配置切入点 &ndash;&gt;
+        <aop:pointcut id="pointcut1" expression="execution(* co m.hbnu.aop.UserService.*(..))"></aop:pointcut>
+
+        &lt;!&ndash; 配置切面 &ndash;&gt;
+        <aop:aspect ref="logRecord">
+            &lt;!&ndash; 配置通知 &ndash;&gt;
+            <aop:before method="before1" pointcut-ref="pointcut1"></aop:before>
+
+            <aop:around method="around" pointcut-ref="pointcut1"></aop:around>
+        </aop:aspect>
+    </aop:config>
+    -->
+
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+</beans>
