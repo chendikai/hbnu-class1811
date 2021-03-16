@@ -6,9 +6,12 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Test;
 
+import javax.jws.soap.SOAPBinding;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author 陈迪凯
@@ -99,4 +102,98 @@ public class MyBatisTest {
 
         System.out.println(user);
     }
+
+    @Test
+    public void testInsert() throws IOException {
+        InputStream in = Resources.getResourceAsStream("mybatis-config.xml");
+
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(in);
+
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        User user = new User();
+        user.setUsername("马云");
+        user.setPassword("maoyun");
+        user.setEmail("maoyun@aliyun.com");
+
+        // 执行添加操作
+        int row = sqlSession.insert("UserMapper.insert2", user);
+
+        sqlSession.commit();
+
+        System.out.println("影响的数据：" + row);
+    }
+
+    @Test
+    public void testUpdate() throws IOException {
+        InputStream in = Resources.getResourceAsStream("mybatis-config.xml");
+
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(in);
+
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        User user = new User();
+
+        user.setUsername("马云");
+        user.setPassword("123456");
+
+        int rows = sqlSession.update("UserMapper.update2", user);
+
+        sqlSession.commit();
+
+        System.out.println("影响的行数：" + rows);
+
+    }
+
+    @Test
+    public void testSelect() throws IOException {
+        InputStream in = Resources.getResourceAsStream("mybatis-config.xml");
+
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(in);
+
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        User user = sqlSession.selectOne("UserMapper.findByUsername", "马云");
+
+        System.out.println(user);
+
+    }
+
+    @Test
+    public void testDelete() throws IOException {
+        InputStream in = Resources.getResourceAsStream("mybatis-config.xml");
+
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(in);
+
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        int rows = sqlSession.delete("UserMapper.deleteByUsername", "马云");
+
+        sqlSession.commit();
+
+        System.out.println("影响的行数：" + rows);
+
+    }
+
+    @Test
+    public void testSelect2() throws IOException {
+        InputStream in = Resources.getResourceAsStream("mybatis-config.xml");
+
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(in);
+
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        Map<String, String> map = new HashMap<>();
+        map.put("cols", "username, password, email");
+
+        List<User> userList = sqlSession.selectList("UserMapper.select2", map);
+
+        for (User user : userList) {
+            System.out.println("用户名:" + user.getUsername() + "；邮箱：" + user.getEmail() + "；密码："
+            + user.getPassword());
+        }
+
+    }
+
+
 }

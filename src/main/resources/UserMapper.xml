@@ -32,4 +32,26 @@
     <select id="selectOne" resultType="com.hbnu.pojo.User">
         select * from tb_user where username = 'chendikai'
     </select>
+
+    <!-- 使用占位符#{}执行sql语句 -->
+    <insert id="insert2">
+        insert into tb_user(username, password, email) values (#{username}, #{password}, #{email})
+    </insert>
+
+    <update id="update2">
+        update tb_user set password = #{password} where username = #{username}
+    </update>
+
+    <select id="findByUsername" resultType="com.hbnu.pojo.User">
+        select * from tb_user where username = #{username}
+    </select>
+
+    <delete id="deleteByUsername">
+        delete from tb_user where username = #{username}
+    </delete>
+
+    <!-- 使用${}占位符指定要查询的字段 -->
+    <select id="select2" resultType="com.hbnu.pojo.User">
+        select ${cols} from tb_user
+    </select>
 </mapper>
