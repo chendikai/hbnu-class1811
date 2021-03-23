@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 配置c3p0数据库连接池信息 -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql:///hbnu?serverTimezone=GMT&amp;useSSL=false&amp;characterEncoding=utf-8"></property>
+        <property name="user" value="root"></property>
+        <property name="password" value="chendikai"></property>
+    </bean>
+
+    <!-- 配置jdbcTemplate -->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <!-- 将数据源注入到jdbcTemplate中 -->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <bean id="userDao" class="com.hbnu.jdbcTemplate.c3p0.dao.UserDao">
+        <!-- 将jdbcTemplate注入到UserDao中 -->
+        <property name="jdbcTemplate" ref="jdbcTemplate"></property>
+    </bean>
+
+    <bean id="userService" class="com.hbnu.jdbcTemplate.c3p0.service.UserService">
+        <!-- 将userDao注入到UserService中 -->
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+</beans>

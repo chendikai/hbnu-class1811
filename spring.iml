@@ -32,5 +32,8 @@
     </orderEntry>
     <orderEntry type="library" name="spring-aop-4.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="aspectjweaver-1.8.13" level="project" />
+    <orderEntry type="library" name="spring-jdbc-4.2.4.RELEASE" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.12" level="project" />
+    <orderEntry type="library" name="c3p0-0.9.5.2" level="project" />
   </component>
 </module>
