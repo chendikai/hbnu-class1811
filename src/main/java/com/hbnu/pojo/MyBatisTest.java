@@ -195,5 +195,78 @@ public class MyBatisTest {
 
     }
 
+    @Test
+    public void testSelect3() throws IOException {
+        InputStream in = Resources.getResourceAsStream("mybatis-config.xml");
+
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(in);
+
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        Map<String, Double> salary = new HashMap<>();
+        salary.put("minSal", 3000.00);
+        salary.put("maxSal", 8001.00);
+
+        List<User> userList = sqlSession.selectList("UserMapper.findBySalary", salary);
+
+        for (User user : userList) {
+            System.out.println(user);
+        }
+    }
+
+    @Test
+    public void testUpdateByInput() throws IOException {
+        InputStream in = Resources.getResourceAsStream("mybatis-config.xml");
+
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(in);
+
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        User user = new User();
+        user.setUsername("chendikai");
+        user.setPassword("123456");
+        user.setEmail("chendikai1314@163.com");
+        user.setSalary(20000.00);
+
+        int rows = sqlSession.update("UserMapper.updateByInput", user);
+
+        sqlSession.commit();
+
+        System.out.println("影响的数据行数：" + rows);
+    }
+
+    @Test
+    public void testSelectByUsername() throws IOException {
+        InputStream in = Resources.getResourceAsStream("mybatis-config.xml");
+
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(in);
+
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        String[] usernames = {"chendikai", "湖师", "陌上杨花"};
+
+        List<User> users = sqlSession.selectList("UserMapper.findByUsername1", usernames);
+
+        for (User user : users) {
+            System.out.println(user);
+        }
+    }
+
+    @Test
+    public void testDeleteByUsername() throws IOException {
+        InputStream in = Resources.getResourceAsStream("mybatis-config.xml");
+
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(in);
+
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        String[] usernames = {"jixin"};
+
+        int rows = sqlSession.delete("UserMapper.deleteByUsername1", usernames);
+
+        sqlSession.commit();
+
+        System.out.println("影响的数据行数：" + rows);
+    }
 
 }

@@ -8,6 +8,15 @@ public class User {
     private String username;
     private String password;
     private String email;
+    private Double salary;
+
+    public Double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(Double salary) {
+        this.salary = salary;
+    }
 
     public String getUsername() {
         return username;
@@ -39,6 +48,7 @@ public class User {
                 "username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", email='" + email + '\'' +
+                ", salary=" + salary +
                 '}';
     }
 }

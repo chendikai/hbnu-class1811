@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="223bede9-39b7-4050-92a5-e87039d66347" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatis框架.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hbnu/pojo/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hbnu/pojo/MyBatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hbnu/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hbnu/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/UserMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,40 +21,41 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="7" />
+          <entry key="java" value="8" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="8" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="40" />
-          <entry key="java" value="1851" />
-          <entry key="xml" value="1155" />
+          <entry key="java" value="2372" />
+          <entry key="xml" value="1737" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1851" />
-          <entry key="SQL" value="1" />
+          <entry key="JAVA" value="2372" />
+          <entry key="SQL" value="9" />
           <entry key="VTL" value="40" />
-          <entry key="XML" value="1154" />
+          <entry key="XML" value="1728" />
         </counts>
       </usages-collector>
     </session>
@@ -64,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="45" column="58" lean-forward="true" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+            <state relative-caret-position="327">
+              <caret line="87" column="35" lean-forward="true" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -73,10 +74,37 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hbnu/pojo/MyBatisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="177" column="9" lean-forward="true" selection-start-line="177" selection-start-column="9" selection-end-line="177" selection-end-column="9" />
+            <state relative-caret-position="327">
+              <caret line="254" column="4" selection-start-line="254" selection-start-column="4" selection-end-line="269" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hbnu/pojo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+              <folding>
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,6 +121,10 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>findByUsername</find>
+      <find>deleteByUsername</find>
+    </findStrings>
     <dirStrings>
       <dir>E:\DingLi\class211\mybatis\src\main\java\com\hbnu\pojo</dir>
     </dirStrings>
@@ -110,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hbnu/pojo/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hbnu/pojo/Main.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hbnu/pojo/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hbnu/pojo/MyBatisTest.java" />
       </list>
@@ -136,10 +169,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
     <option name="height" value="1060" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -181,7 +214,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,13 +280,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615859193094" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1616463096200" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -274,8 +307,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTest.testSelect2">
-    <configuration name="MyBatisTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyBatisTest.testDeleteByUsername">
+    <configuration name="MyBatisTest.testDeleteByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
         <pattern>
@@ -285,39 +318,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hbnu.pojo" />
       <option name="MAIN_CLASS_NAME" value="com.hbnu.pojo.MyBatisTest" />
-      <option name="METHOD_NAME" value="testDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBatisTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hbnu.pojo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hbnu.pojo" />
-      <option name="MAIN_CLASS_NAME" value="com.hbnu.pojo.MyBatisTest" />
-      <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBatisTest.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hbnu.pojo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hbnu.pojo" />
-      <option name="MAIN_CLASS_NAME" value="com.hbnu.pojo.MyBatisTest" />
-      <option name="METHOD_NAME" value="testSelect" />
+      <option name="METHOD_NAME" value="testDeleteByUsername" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -339,7 +340,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyBatisTest.testSelect3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
         <pattern>
@@ -349,26 +350,58 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hbnu.pojo" />
       <option name="MAIN_CLASS_NAME" value="com.hbnu.pojo.MyBatisTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="METHOD_NAME" value="testSelect3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testSelectByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hbnu.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hbnu.pojo" />
+      <option name="MAIN_CLASS_NAME" value="com.hbnu.pojo.MyBatisTest" />
+      <option name="METHOD_NAME" value="testSelectByUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testUpdateByInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hbnu.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hbnu.pojo" />
+      <option name="MAIN_CLASS_NAME" value="com.hbnu.pojo.MyBatisTest" />
+      <option name="METHOD_NAME" value="testUpdateByInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyBatisTest.testInsert" />
-      <item itemvalue="JUnit.MyBatisTest.testUpdate" />
-      <item itemvalue="JUnit.MyBatisTest.testSelect" />
-      <item itemvalue="JUnit.MyBatisTest.testDelete" />
       <item itemvalue="JUnit.MyBatisTest.testSelect2" />
+      <item itemvalue="JUnit.MyBatisTest.testSelect3" />
+      <item itemvalue="JUnit.MyBatisTest.testUpdateByInput" />
+      <item itemvalue="JUnit.MyBatisTest.testSelectByUsername" />
+      <item itemvalue="JUnit.MyBatisTest.testDeleteByUsername" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBatisTest.testDeleteByUsername" />
+        <item itemvalue="JUnit.MyBatisTest.testSelectByUsername" />
+        <item itemvalue="JUnit.MyBatisTest.testUpdateByInput" />
+        <item itemvalue="JUnit.MyBatisTest.testSelect3" />
         <item itemvalue="JUnit.MyBatisTest.testSelect2" />
-        <item itemvalue="JUnit.MyBatisTest.testDelete" />
-        <item itemvalue="JUnit.MyBatisTest.testSelect" />
-        <item itemvalue="JUnit.MyBatisTest.testUpdate" />
-        <item itemvalue="JUnit.MyBatisTest.testInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -386,48 +419,50 @@
       <workItem from="1615205915835" duration="39000" />
       <workItem from="1615248494051" duration="5605000" />
       <workItem from="1615854214413" duration="4520000" />
+      <workItem from="1616457076271" duration="4552000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyBatisTest_deleteUser - 2021.03.09 at 09h 33m 17s.xml">
-      <configuration name="MyBatisTest.deleteUser" configurationId="JUnit" />
+    <history-entry file="MyBatisTest_testSelect3 - 2021.03.23 at 08h 40m 20s.xml">
+      <configuration name="MyBatisTest.testSelect3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTest_findUser - 2021.03.09 at 09h 37m 08s.xml">
-      <configuration name="MyBatisTest.findUser" configurationId="JUnit" />
+    <history-entry file="MyBatisTest_testSelect3 - 2021.03.23 at 08h 40m 50s.xml">
+      <configuration name="MyBatisTest.testSelect3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTest_findUser - 2021.03.09 at 09h 37m 29s.xml">
-      <configuration name="MyBatisTest.findUser" configurationId="JUnit" />
+    <history-entry file="MyBatisTest_testUpdateByInput - 2021.03.23 at 09h 04m 14s.xml">
+      <configuration name="MyBatisTest.testUpdateByInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTest_testInsert - 2021.03.16 at 08h 33m 03s.xml">
-      <configuration name="MyBatisTest.testInsert" configurationId="JUnit" />
+    <history-entry file="MyBatisTest_testUpdateByInput - 2021.03.23 at 09h 05m 29s.xml">
+      <configuration name="MyBatisTest.testUpdateByInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTest_testInsert - 2021.03.16 at 08h 33m 26s.xml">
-      <configuration name="MyBatisTest.testInsert" configurationId="JUnit" />
+    <history-entry file="MyBatisTest_testUpdateByInput - 2021.03.23 at 09h 06m 44s.xml">
+      <configuration name="MyBatisTest.testUpdateByInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTest_testUpdate - 2021.03.16 at 08h 45m 27s.xml">
-      <configuration name="MyBatisTest.testUpdate" configurationId="JUnit" />
+    <history-entry file="MyBatisTest_testSelectByUsername - 2021.03.23 at 09h 17m 22s.xml">
+      <configuration name="MyBatisTest.testSelectByUsername" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTest_testSelect - 2021.03.16 at 08h 56m 37s.xml">
-      <configuration name="MyBatisTest.testSelect" configurationId="JUnit" />
+    <history-entry file="MyBatisTest_testSelectByUsername - 2021.03.23 at 09h 18m 10s.xml">
+      <configuration name="MyBatisTest.testSelectByUsername" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTest_testDelete - 2021.03.16 at 08h 59m 49s.xml">
-      <configuration name="MyBatisTest.testDelete" configurationId="JUnit" />
+    <history-entry file="MyBatisTest_testDeleteByUsername - 2021.03.23 at 09h 29m 05s.xml">
+      <configuration name="MyBatisTest.testDeleteByUsername" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTest_testSelect2 - 2021.03.16 at 09h 11m 00s.xml">
-      <configuration name="MyBatisTest.testSelect2" configurationId="JUnit" />
+    <history-entry file="MyBatisTest_testDeleteByUsername - 2021.03.23 at 09h 30m 10s.xml">
+      <configuration name="MyBatisTest.testDeleteByUsername" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTest_testSelect2 - 2021.03.16 at 09h 11m 40s.xml">
-      <configuration name="MyBatisTest.testSelect2" configurationId="JUnit" />
+    <history-entry file="MyBatisTest_testDeleteByUsername - 2021.03.23 at 09h 30m 31s.xml">
+      <configuration name="MyBatisTest.testDeleteByUsername" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14536000" />
+    <option name="totallyTimeSpent" value="19088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22520107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22788204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -525,11 +560,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbnu/pojo/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="12" column="15" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hbnu/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
           <folding>
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
             <element signature="e#209#210#0" expanded="true" />
             <element signature="e#240#241#0" expanded="true" />
             <element signature="e#288#289#0" expanded="true" />
@@ -546,24 +592,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="15" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="45" column="58" lean-forward="true" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+        <state relative-caret-position="327">
+          <caret line="87" column="35" lean-forward="true" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hbnu/pojo/MyBatisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="177" column="9" lean-forward="true" selection-start-line="177" selection-start-column="9" selection-end-line="177" selection-end-column="9" />
+        <state relative-caret-position="327">
+          <caret line="254" column="4" selection-start-line="254" selection-start-column="4" selection-end-line="269" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

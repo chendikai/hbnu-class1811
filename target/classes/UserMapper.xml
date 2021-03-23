@@ -54,4 +54,41 @@
     <select id="select2" resultType="com.hbnu.pojo.User">
         select ${cols} from tb_user
     </select>
+
+    <!-- 动态sql语句 -->
+    <select id="findBySalary" resultType="com.hbnu.pojo.User">
+        select * from tb_user
+        <where>
+            <if test="minSal != null">
+                salary > #{minSal}
+            </if>
+            <if test="maxSal != null">
+                and salary <![CDATA[<]]> #{maxSal}
+            </if>
+        </where>
+    </select>
+
+    <update id="updateByInput">
+        update tb_user
+        <set>
+            <if test="password != null">password = #{password},</if>
+            <if test="email != null">email = #{email},</if>
+            <if test="salary != null">salary = #{salary}</if>
+        </set>
+        where username = #{username}
+    </update>
+
+    <select id="findByUsername1" resultType="com.hbnu.pojo.User">
+        select * from tb_user where username in
+        <foreach collection="array" open="(" close=")" item="username" separator=",">
+            #{username}
+        </foreach>
+    </select>
+
+    <delete id="deleteByUsername1">
+        delete from tb_user where username in
+        <foreach collection="array" open="(" close=")" item="username" separator=",">
+            #{username}
+        </foreach>
+    </delete>
 </mapper>
