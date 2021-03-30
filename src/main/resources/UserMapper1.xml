@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace是当前文件所在的包名+当前文件名，后面程序中通过namespace + id来执行sql语句 -->
+<mapper namespace="com.hbnu.dao.UserMapper">
+
+    <!-- 根据用户名查询用户信息 -->
+    <select id="findUserByUsername" resultType="com.hbnu.pojo.User">
+        select * from tb_user where username = #{username}
+    </select>
+</mapper>

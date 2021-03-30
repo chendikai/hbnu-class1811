@@ -1,5 +1,6 @@
 package com.hbnu.pojo;
 
+import com.hbnu.dao.UserMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -267,6 +268,22 @@ public class MyBatisTest {
         sqlSession.commit();
 
         System.out.println("影响的数据行数：" + rows);
+    }
+
+    @Test
+    public void testSelectUserByUsername() throws IOException {
+        InputStream in = Resources.getResourceAsStream("mybatis-config.xml");
+
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(in);
+
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        // 通过sqlSession对象中的getMapper方法获取到mapper对象
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+
+        User user = userMapper.findUserByUsername("chendikai");
+
+        System.out.println(user);
     }
 
 }

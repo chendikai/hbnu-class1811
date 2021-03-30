@@ -4,6 +4,10 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <!-- 配置mybatis全局信息 -->
 <configuration>
+
+    <!-- 引入jdbc.properties数据库配置信息 -->
+    <properties resource="jdbc.properties"></properties>
+
     <!--配置环境信息，内部可以配置多个环境信息，比如开发环境、测试环境、生产环境-->
     <environments default="develop">
         <environment id="develop">
@@ -18,11 +22,10 @@
             UNPOOLED：不适用数据库连接池
             -->
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url"
-                          value="jdbc:mysql://localhost:3306/hbnu?serverTimezone=GMT&amp;useSSL=false&amp;characterEncoding=utf-8"/>
-                <property name="username" value="root"/>
-                <property name="password" value="chendikai"/>
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
             </dataSource>
         </environment>
 
@@ -30,6 +33,7 @@
 
     <!-- 配置映射文件，可以配置多个 -->
     <mappers>
+        <mapper resource="UserMapper1.xml"></mapper>
         <mapper resource="UserMapper.xml"></mapper>
     </mappers>
 </configuration>

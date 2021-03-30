@@ -30,6 +30,7 @@
 
     <!-- 配置映射文件，可以配置多个 -->
     <mappers>
+        <mapper resource="UserMapper1.xml"></mapper>
         <mapper resource="UserMapper.xml"></mapper>
     </mappers>
 </configuration>
